@@ -1,0 +1,52 @@
+{
+  "name": "mongo-schema-json",
+  "version": "1.0.0",
+  "description": "mongo-schema-json is a TypeScript-based npm package designed to simplify MongoDB schema extraction. By providing a MongoDB connection string and database name, this package returns the schema of the database along with an array of collection names. It's a handy tool for developers looking to quickly inspect and work with MongoDB schemas without manually querying the database.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "test-example": "npx ts-node dist/src/exmaple/index.js"
+  },
+  "keywords": [
+    "mongodb-schema-json",
+    "mongodb-schema",
+    "mongo-schema-json",
+    "mongo-schema",
+    "mongo-schema-extraction",
+    "MongoDB"
+  ],
+  "author": {
+    "name": "Rajan Kumar",
+    "email": "rajankr542@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/Rajankr542/mongo-schema-json/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rajankr542/mongo-schema-json.git"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "LICENSE",
+    "dist/**/*",
+    "package.json",
+    "README.md"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.5.2",
+    "@typescript-eslint/eslint-plugin": "^7.16.1",
+    "@typescript-eslint/parser": "^7.16.1",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-typescript": "^18.0.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-import": "^2.29.1",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "mongodb": "^6.8.0"
+  }
+}
